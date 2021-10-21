@@ -1,0 +1,1 @@
+This is a drawing project, sort of like an etch-a-sketch. 
