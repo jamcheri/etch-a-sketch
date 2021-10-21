@@ -4,17 +4,23 @@
 
 body {
     display: flex;
-    height: 500px;
+    justify-content: center;
 }
 
 #container {
     display: flex;
+    gap: 0px;
+    height: 500px;
+    max-width: 1000px;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .grid {
-    border: 1px solid blue;
-    height: 500px; 
-    width: 50px;
+    min-width: 24%;
     background-color: yellow;
+}
+
+.hover {
+    background-color: red;
 }
