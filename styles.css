@@ -1,26 +1,35 @@
-* {
+/** {
     border: 1px solid blue;
-}
+}*/
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+}
+
+button {
+    width: 150px;
 }
 
 #container {
     display: flex;
-    gap: 0px;
-    height: 500px;
-    max-width: 1000px;
+    height: 600px;
+    width: 600px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .grid {
-    min-width: 24%;
-    background-color: yellow;
+    /*min-width: 6.25%;
+    min-height: 6.25%; now manipulated in JS so it can be dynamic*/
+    background-color: white;
+    /*flex:1;  this turned out to not be needed */
 }
 
 .hover {
-    background-color: red;
+    background-color: darkblue;
 }
